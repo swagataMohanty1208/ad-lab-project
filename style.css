@@ -428,10 +428,17 @@ html {
   }
   
   .fButton {
-    padding: 5px;
-    background-color: black;
-    color: white;
-  }
+  background-color: #FF6347; /* Example color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fButton:hover {
+  background-color: #FF4500; /* Change on hover */
+}
   
   .fIcons{
     display: flex;
