@@ -210,3 +210,9 @@ payButton.addEventListener("click", function (event) {
 closeConfirmation.addEventListener("click", function () {
   confirmationScreen.style.display = "none";
 });
+
+// Optional: Hide the subscription form after the user clicks 'Join!'
+document.getElementById('joinButton').addEventListener('click', function() {
+    alert('Thank you for subscribing!'); // You can replace this with actual email submission logic
+    document.querySelector('.fMail').style.display = 'none';  // Hide the subscription form after joining
+});
